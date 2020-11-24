@@ -33,6 +33,7 @@ public @interface Query {
     // Dong ZhaoYang 2017/8/7 查询方式
     Type type() default Type.EQUAL;
 
+
     /**
      * 连接查询的属性名，如User类中的dept
      */
